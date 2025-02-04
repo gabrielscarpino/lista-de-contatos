@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista telefônica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main lt.css">
+</head>
+
+
+
+
+<body>
+<div class="container">
+<header>
+    <H1>Lista de contatos</H1>
+</header>
+
+
+<form id="form-telefone">
+    <input type="text" id="name-contact" required placeholder="Nome do contato">
+    <input type="text" id= "number-contact" required placeholder="Número do contato" minlength="11" maxlength="11">
+    <button type="submit">Adicionar +</button>
+</form>
+
+
+<table >
+    <thead>
+        <tr>
+            <th>Nome do contato</th>
+            <th>Número do contato</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+</div>
+<script src="./main lt.js"></script>
+</body>
+</html>
